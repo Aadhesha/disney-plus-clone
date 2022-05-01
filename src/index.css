@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c131b;
+  color: #ffff;
+  /* font-family: "Lucida Sans", Helvetica, sans-serif; */
+  font-family: Avenir-Roman, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  /* color: rgba(242, 244, 248, 0.1); for rgbareference */
+  text-decoration: none;
+}
+
+@media only Screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only Screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only Screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}
